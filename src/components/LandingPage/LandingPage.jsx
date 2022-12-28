@@ -2,6 +2,7 @@ import React from "react";
 import Lash2 from "../fotos/lash2.jpg";
 import Lash4 from "../fotos/lash4.jpg";
 import Lash3 from "../fotos/lash3.jpg";
+import "./LandingPage.css";
 
 const LandingPage = () => {
   return (
@@ -29,9 +30,9 @@ const LandingPage = () => {
             aria-label="Slide 3"
           ></button>
         </div>
-        <div class="carousel-inner">
+        <div className="carousel-inner">
           <div class="carousel-item active">
-            <img src={Lash2} width="1550px" height="550px" alt="..." />
+            <img src={Lash2} width="1550px" height="550px" alt="estilista" />
             <div class="carousel-caption d-none d-md-block">
               <h5>ENTRENAMIENTO ONLINE</h5>
               <h1>
@@ -41,11 +42,11 @@ const LandingPage = () => {
             </div>
           </div>
           <div class="carousel-item">
-            <img src={Lash4} width="1550px" height="550px" alt="..." />
+            <img src={Lash4} width="1550px" height="550px" alt="estilista" />
             <div class="carousel-caption d-none d-md-block"></div>
           </div>
           <div class="carousel-item">
-            <img src={Lash3} width="1550px" height="550px" alt="..." />
+            <img src={Lash3} width="1550px" height="550px" alt="estilista" />
             <div class="carousel-caption d-none d-md-block"></div>
           </div>
         </div>
