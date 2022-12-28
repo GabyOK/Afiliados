@@ -7,14 +7,14 @@ import "./Cursos.css";
 const Cursos = () => {
   return (
     <div>
-      <h4>TINTURA Y HENNA PARA CEJAS EXPRESS</h4>
-      <h6>
+      <h3>TINTURA Y HENNA PARA CEJAS EXPRESS</h3>
+      <h5>
         Aprende desde CERO,de manera PROFESIONAL cómo tener unas CEJAS de
         REVISTA, "TUPIDAS, NATURALES Y SIN ESPACIOS VACIOS!" Con la aplicación
         de TINTURA Y HENNA PARA CEJAS Ahorra tiempo, dinero, trabajo y olvídate
         del maquillaje diario dándole al ROSTRO un aspecto BELLO Y VIGOROSO con
         una técnica no invasiva, fácil de aplicar y super económica.
-      </h6>
+      </h5>
       <img
         className="img"
         src={Henna}
