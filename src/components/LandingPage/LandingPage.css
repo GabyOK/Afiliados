@@ -2,3 +2,21 @@ body {
   background-color: black;
   font-family: "Times New Roman", Times, serif;
 }
+
+@media screen and (min-width: 150px) and (max-width: 576px) {
+  .container-carrusel {
+    width: 122%;
+  }
+  .lash2 {
+    width: 82%;
+    height: 60%;
+  }
+  .lash3 {
+    width: 82%;
+    height: 60%;
+  }
+  .lash4 {
+    width: 82%;
+    height: 60%;
+  }
+}

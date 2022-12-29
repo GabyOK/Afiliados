@@ -58,7 +58,7 @@ const Cursos = () => {
         <h5>Conoce todo lo que vas a Aprender:</h5>
       </div>
 
-      <div class="container">
+      <div class="container-items">
         <div className="container-lista">
           <div class="dropdown">
             <a

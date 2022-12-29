@@ -6,7 +6,7 @@ import "./LandingPage.css";
 
 const LandingPage = () => {
   return (
-    <div>
+    <div className="container-carrusel">
       <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
           <button
@@ -32,7 +32,13 @@ const LandingPage = () => {
         </div>
         <div className="carousel-inner">
           <div class="carousel-item active">
-            <img src={Lash2} width="1550px" height="550px" alt="estilista" />
+            <img
+              src={Lash2}
+              width="1550px"
+              height="550px"
+              alt="estilista"
+              className="lash2"
+            />
             <div class="carousel-caption d-none d-md-block">
               <h5>ENTRENAMIENTO ONLINE</h5>
               <h1>
@@ -42,11 +48,23 @@ const LandingPage = () => {
             </div>
           </div>
           <div class="carousel-item">
-            <img src={Lash4} width="1550px" height="550px" alt="estilista" />
+            <img
+              src={Lash4}
+              width="1550px"
+              height="550px"
+              alt="estilista"
+              className="lash4"
+            />
             <div class="carousel-caption d-none d-md-block"></div>
           </div>
           <div class="carousel-item">
-            <img src={Lash3} width="1550px" height="550px" alt="estilista" />
+            <img
+              src={Lash3}
+              width="1550px"
+              height="550px"
+              alt="estilista"
+              className="lash3"
+            />
             <div class="carousel-caption d-none d-md-block"></div>
           </div>
         </div>

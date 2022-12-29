@@ -3,18 +3,20 @@ import Whatsapp from "../fotos/whatsap.png";
 import Instagram from "../fotos/instagram.png";
 import Tiktok from "../fotos/tiktok.png";
 import Facebook from "../fotos/facebook.png";
+import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div>
+    <div className="container-footer">
       <div className="container-curso">
-        <h4>¿Tienes dudas sobre los Cursos Online?Escribeme por Whatsapp</h4>
+        <h4>¿Tienes dudas sobre los Cursos Online?Escribeme por Whatsapp?</h4>
         <a href="https://wa.link/qnptc0">
           <img src={Whatsapp} alt="" />
         </a>
-        <h3>Ya son más de 1560 Alumnos que han tomado este ENTRENAMIENTO…</h3>
-
-        <h5>Siguenos en Redes Sociales</h5>
+        <div className="redes">
+          <h3>Ya son más de 2560 Alumnos que han tomado este ENTRENAMIENTO…</h3>
+          <h5>Siguenos en Redes Sociales</h5>
+        </div>
         <div className="container-link">
           <a href="https://www.instagram.com/beuty.style.online/">
             <img src={Instagram} alt="" />
@@ -25,9 +27,15 @@ const Footer = () => {
           <a href="https://www.facebook.com/BeautyStylesgirls/">
             <img src={Facebook} alt="" />
           </a>
+        </div>{" "}
+        <br />
+        <div className="container-curso">
+          <a href="https://www.instagram.com/beuty.style.online/"></a>
         </div>
+        <h6 className="derechos">
+          TODOS LOS DERECHOS RESERVADOS BEAUTY STYLE / @2022
+        </h6>
       </div>
-      <p>TODOS LOS DERECHOS RESERVADOS BEAUTY STYLE / @2022</p>
     </div>
   );
 };

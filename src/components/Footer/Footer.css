@@ -1,0 +1,24 @@
+.derechos {
+  color: white;
+  margin-top: 50px;
+}
+
+.container-link {
+  display: flex;
+  justify-content: space-evenly;
+}
+@media screen and (min-width: 150px) and (max-width: 576px) {
+  .derechos {
+    font-size: 8px;
+    text-align: center;
+  }
+  .redes {
+    text-align: center;
+    color: white;
+  }
+  .container-curso {
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+  }
+}

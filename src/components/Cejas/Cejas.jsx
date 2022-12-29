@@ -1,6 +1,7 @@
 import React from "react";
 import Cejas3 from "../fotos/cejas3.png";
 import Garantia from "../fotos/garantia.png";
+import Cover4 from "../fotos/cover4.png";
 import "./Cejas.css";
 //import ReactPlayer from "react-player";
 
@@ -23,51 +24,58 @@ const Cejas = () => {
         height="200px"
         alt="estilista"
       />
-      <ul className="lista" />
-      <h2>¿Que vas aprender?</h2>
-      <li>Aprender la técnica de Diseño y perfilado de cejas desde 0 .</li>
-      <li>
-        Aplicar el método ideal para practicar, elaborar y obtener los mejores
-        resultados en diseño de cejas.
-      </li>
-      <li>
-        Conocer las diferentes formas y prácticas de elaborar un diseño según la
-        morfología del rostro de cada persona.
-      </li>
-      <li>
-        Conocer los diferentes tipos de depilación, tipos de tinturas y hennas.
-      </li>
-      <li>Aprender la técnica de Microblading desde 0.</li>
-      <li>
-        Aplicar el método ideal para practicar, elaborar y obtener los mejores
-        resultados Microblading cejas.
-      </li>
-      <li>
-        Aprender a elegir los materiales ideales de trabajo según cada
-        necesidad.
-      </li>
-      <li>Distinguir diferentes tipos de pigmentos.</li>
-      <li>
-        Aplicación correcta de la anestesia y profundidad de los cortes en la
-        piel.
-      </li>
-      <li>
-        Conocer los diferentes tipos de aguja y cómo usarlas correctamente.
-      </li>
-      <li>
-        Aprender tips prácticos de la técnica microblading pelo a pelo y muchas
-        otras cosas más.
-      </li>
-      <li>
-        Acceder a todas sus actualizaciones de por vida para que puedas
-        disfrutar de nuevos contenidos muy conectados a la tendencia.
-      </li>
-
-      <div className="container-modulo">
+      <ul className="lista">
+        <h2>¿Que vas aprender?</h2>
+        <li>Aprender la técnica de Diseño y perfilado de cejas desde 0 .</li>
+        <li>
+          Aplicar el método ideal para practicar, elaborar y obtener los mejores
+          resultados en diseño de cejas.
+        </li>
+        <li>
+          Conocer las diferentes formas y prácticas de elaborar un diseño según
+          la morfología del rostro de cada persona.
+        </li>
+        <li>
+          Conocer los diferentes tipos de depilación, tipos de tinturas y
+          hennas.
+        </li>
+        <li>Aprender la técnica de Microblading desde 0.</li>
+        <li>
+          Aplicar el método ideal para practicar, elaborar y obtener los mejores
+          resultados Microblading cejas.
+        </li>
+        <li>
+          Aprender a elegir los materiales ideales de trabajo según cada
+          necesidad.
+        </li>
+        <li>Distinguir diferentes tipos de pigmentos.</li>
+        <li>
+          Aplicación correcta de la anestesia y profundidad de los cortes en la
+          piel.
+        </li>
+        <li>
+          Conocer los diferentes tipos de aguja y cómo usarlas correctamente.
+        </li>
+        <li>
+          Aprender tips prácticos de la técnica microblading pelo a pelo y
+          muchas otras cosas más.
+        </li>
+        <li>
+          Acceder a todas sus actualizaciones de por vida para que puedas
+          disfrutar de nuevos contenidos muy conectados a la tendencia.
+        </li>
+      </ul>
+      <img
+        className="img-cover"
+        src={Cover4}
+        width="350px"
+        height="250px"
+        alt="estilista"
+      />
+      <div className="modulo">
         <h5>MÓDULOS DEL CURSO </h5>
         <h5>Conoce todo lo que vas a Aprender:</h5>
       </div>
-
       <div class="container">
         <div className="container-lista">
           <div class="dropdown">
@@ -681,7 +689,6 @@ const Cejas = () => {
           </div>
         </div>
       </div>
-
       <img
         className="img"
         src={Garantia}

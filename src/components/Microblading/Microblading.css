@@ -7,3 +7,20 @@
   margin-left: 40%;
   margin-top: 8%;
 }
+
+@media screen and (min-width: 150px) and (max-width: 576px) {
+  .lista {
+    width: 110%;
+    margin-left: -10%;
+    margin-top: -1px;
+    font-size: 15px;
+  }
+  .img-cover2 {
+    margin-left: 2%;
+    margin-top: 8%;
+  }
+  .modulo {
+    margin-top: -1px;
+    width: 100%;
+  }
+}

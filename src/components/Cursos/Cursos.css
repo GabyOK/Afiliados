@@ -72,3 +72,29 @@
   display: inline-block;
   margin-top: 5px;
 }
+
+@media screen and (min-width: 150px) and (max-width: 576px) {
+  .lista {
+    width: 110%;
+    margin-left: -10%;
+    margin-top: -1px;
+    font-size: 15px;
+  }
+  .img-cover {
+    margin-left: 2%;
+    margin-top: 8%;
+  }
+  .modulo {
+    width: 100%;
+  }
+  .container-lista {
+    width: 110%;
+    margin-top: -1%;
+    margin-right: 900px;
+  }
+  .dropdown {
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 700px;
+  }
+}
