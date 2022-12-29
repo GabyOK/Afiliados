@@ -2,24 +2,27 @@ import React from "react";
 import Pest from "../fotos/pestañas.png";
 import Cover3 from "../fotos/cover3.png";
 import Garantia from "../fotos/garantia.png";
+import "./Pestañas.css";
 
 const Pestañas = () => {
   return (
-    <div>
-      <h4>CEJAS,LIFTING,PESTAÑAS PELO A PELO y VOLUMEN RUSO</h4>
+    <div className="container">
+      <h3 className="titulo">
+        CEJAS,LIFTING,PESTAÑAS PELO A PELO y VOLUMEN RUSO
+      </h3>
       <h6>
         aprenderás todas las técnicas y herramientas necesarias para crear tu
         propio negocio de belleza y ofrecer gran variedad de servicios a tus
         clientes con las técnicas más innovadoras del mercado.
       </h6>
       <img
-        className="img"
+        className="img-pestañas"
         src={Pest}
         width="320px"
         height="200px"
         alt="estilista"
       />
-      <ul>
+      <ul className="lista">
         ¿Qué aprenderás en este curso?
         <li>
           Empezar desde cero hasta ser un/una profesional en diseño de cejas,

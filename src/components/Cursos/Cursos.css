@@ -1,40 +1,57 @@
-.button {
-  --bg: #000;
-  --hover-bg: #ff90e8;
-  --hover-text: #000;
-  color: #fff;
-  border: 1px solid var(--bg);
-  border-radius: 4px;
-  padding: 0.8em 2em;
-  background: var(--bg);
-  transition: 0.2s;
+.comprar {
+  padding: 1rem 2rem;
+  border: 0;
+  box-shadow: 0px 0px 40px 0px red;
+  font-weight: bolder;
+  color: white;
+  border-radius: 0.3rem;
+  background-color: red;
+  letter-spacing: 0.2rem;
 }
 
-.button:hover {
-  color: var(--hover-text);
-  transform: translate(-0.25rem, -0.25rem);
-  background: var(--hover-bg);
-  box-shadow: 0.25rem 0.25rem var(--bg);
+.comprar:hover {
+  animation: changeBg 1s infinite;
+  animation-duration: 10s;
 }
 
-.button:active {
-  transform: translate(0);
-  box-shadow: none;
-}
+@keyframes changeBg {
+  0%,
+  100% {
+    box-shadow: 0px 0px 40px 0px red;
+  }
 
+  25% {
+    box-shadow: 0px 0px 40px 0px turquoise;
+    background-color: turquoise;
+  }
+
+  50% {
+    box-shadow: 0px 0px 40px 0px purple;
+    background-color: purple;
+  }
+
+  75% {
+    box-shadow: 0px 0px 40px 0px rgb(191, 204, 11);
+    background-color: rgb(191, 204, 11);
+  }
+}
 .container {
   text-align: center;
   margin-top: 20px;
   color: aliceblue;
+}
+.titulo {
+  color: orange;
 }
 .img-henna {
   margin-right: 90%;
   margin-top: 2%;
   border-radius: 5px;
 }
+
 .img-cover {
   margin-left: 70%;
-  margin-top: 3%;
+  margin-top: 8%;
 }
 .lista {
   list-style: none;
@@ -44,7 +61,14 @@
   font-size: 16px;
 }
 .modulo {
-  display: inline-block;
   margin-right: 80%;
-  margin-top: -400px;
+  margin-top: -15%;
+}
+.container-lista {
+  display: inline-block;
+  margin-top: -18%;
+}
+.dropdown {
+  display: inline-block;
+  margin-top: 5px;
 }

@@ -7,14 +7,14 @@ import "./Cursos.css";
 const Cursos = () => {
   return (
     <div className="container">
-      <h3>TINTURA Y HENNA PARA CEJAS EXPRESS</h3>
-      <h5>
+      <h3 className="titulo">TINTURA Y HENNA PARA CEJAS EXPRESS</h3>
+      <h6>
         Aprende desde CERO,de manera PROFESIONAL cómo tener unas CEJAS de
         REVISTA, "TUPIDAS, NATURALES Y SIN ESPACIOS VACIOS!" Con la aplicación
         de TINTURA Y HENNA PARA CEJAS Ahorra tiempo, dinero, trabajo y olvídate
         del maquillaje diario dándole al ROSTRO un aspecto BELLO Y VIGOROSO con
         una técnica no invasiva, fácil de aplicar y super económica.
-      </h5>
+      </h6>
       <img
         className="img-henna"
         src={Henna}
@@ -23,7 +23,7 @@ const Cursos = () => {
         alt="estilista"
       />
       <ul className="lista">
-        ¿Que vas aprender?
+        <h2>¿Que vas aprender?</h2>
         <li>Aprender y practicar la técnica desde 0 .</li>
         <li>
           Aplicar el método ideal para practicar, elaborar y obtener los mejores
@@ -34,15 +34,13 @@ const Cursos = () => {
         </li>
         <li>
           Elegir el pigmento que mejor se acomode a tus necesidades. Aprender
-          tips prácticos de la técnica y su aplicación. Podrás recuperar la
-          inversión de inmediato.
+          tips prácticos de la técnica y su aplicación.
         </li>
         <li>
           Generar ingresos adicionales y manejar tu tiempo para dedicarte a lo
           que más te gusta. Aprender desde la comodidad de tu casa a tu propio
           ritmo.
         </li>
-        <li>Tendrás un CERTIFICADO de culminación.</li>
         <li>¡ACCESO ILIMITADO Y PARA TODA LA VIDA! INCLUYE</li>
         <li>
           <h4>GARANTÍA DE SATISFACCIÓN DE 7 DÍAS.</h4>
@@ -57,11 +55,11 @@ const Cursos = () => {
       />
       <div className="modulo">
         <h5>MÓDULOS DEL CURSO </h5>
-        <h5>Conoce todo lo que vamos a Aprender:</h5>
+        <h5>Conoce todo lo que vas a Aprender:</h5>
       </div>
 
       <div class="container">
-        <div>
+        <div className="container-lista">
           <div class="dropdown">
             <a
               class="btn btn-secondary dropdown-toggle"
@@ -309,7 +307,7 @@ const Cursos = () => {
       />
       <h4>Aprovecha el 83% de DESCUENTO.</h4>
       <a href="https://pay.hotmart.com/H62161966Y?off=f7ji1l7n&checkoutMode=10&offDiscount=ESPECIAL83OFF&ref=T77703701A&bid=1671762526333">
-        <button class="button">COMPRAR AHORA</button>
+        <button className="comprar">COMPRAR AHORA</button>
       </a>
     </div>
   );

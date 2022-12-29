@@ -1,70 +1,75 @@
 import React from "react";
 import Cejas3 from "../fotos/cejas3.png";
 import Garantia from "../fotos/garantia.png";
+import "./Cejas.css";
 //import ReactPlayer from "react-player";
 
 const Cejas = () => {
   return (
-    <div>
-      <h4>
+    <div className="container">
+      <h3 className="titulo">
         3 ENTRENAMIENTOS EN 1 DISEÑO Y PERFILADO + TINTURA Y HENNA +
         MICROBLADING DE CEJAS
-      </h4>
+      </h3>
       <h6>
         NUEVO entrenamiento completo que incluye aprender a diseñar y perfilar
         cejas, a usar tinturas y henna y la técnica más demandada que es el
         Microblading de Cejas.
       </h6>
       <img
-        className="img"
+        className="img-henna"
         src={Cejas3}
         width="350px"
         height="200px"
         alt="estilista"
       />
-      <ul>
-        Qué vas a LOGRAR?:
-        <li>Aprender la técnica de Diseño y perfilado de cejas desde 0 .</li>
-        <li>
-          Aplicar el método ideal para practicar, elaborar y obtener los mejores
-          resultados en diseño de cejas.
-        </li>
-        <li>
-          Conocer las diferentes formas y prácticas de elaborar un diseño según
-          la morfología del rostro de cada persona.
-        </li>
-        <li>
-          Conocer los diferentes tipos de depilación, tipos de tinturas y
-          hennas.
-        </li>
-        <li>Aprender la técnica de Microblading desde 0.</li>
-        <li>
-          Aplicar el método ideal para practicar, elaborar y obtener los mejores
-          resultados Microblading cejas.
-        </li>
-        <li>
-          Aprender a elegir los materiales ideales de trabajo según cada
-          necesidad.
-        </li>
-        <li>Distinguir diferentes tipos de pigmentos.</li>
-        <li>
-          Aplicación correcta de la anestesia y profundidad de los cortes en la
-          piel.
-        </li>
-        <li>
-          Conocer los diferentes tipos de aguja y cómo usarlas correctamente.
-        </li>
-        <li>
-          Aprender tips prácticos de la técnica microblading pelo a pelo y
-          muchas otras cosas más.
-        </li>
-        <li>
-          Acceder a todas sus actualizaciones de por vida para que puedas
-          disfrutar de nuevos contenidos muy conectados a la tendencia.
-        </li>
-        <li>
-          <h5>MÓDULOS DEL CURSO Conoce todo lo que vamos a abordar:</h5>
+      <ul className="lista" />
+      <h2>¿Que vas aprender?</h2>
+      <li>Aprender la técnica de Diseño y perfilado de cejas desde 0 .</li>
+      <li>
+        Aplicar el método ideal para practicar, elaborar y obtener los mejores
+        resultados en diseño de cejas.
+      </li>
+      <li>
+        Conocer las diferentes formas y prácticas de elaborar un diseño según la
+        morfología del rostro de cada persona.
+      </li>
+      <li>
+        Conocer los diferentes tipos de depilación, tipos de tinturas y hennas.
+      </li>
+      <li>Aprender la técnica de Microblading desde 0.</li>
+      <li>
+        Aplicar el método ideal para practicar, elaborar y obtener los mejores
+        resultados Microblading cejas.
+      </li>
+      <li>
+        Aprender a elegir los materiales ideales de trabajo según cada
+        necesidad.
+      </li>
+      <li>Distinguir diferentes tipos de pigmentos.</li>
+      <li>
+        Aplicación correcta de la anestesia y profundidad de los cortes en la
+        piel.
+      </li>
+      <li>
+        Conocer los diferentes tipos de aguja y cómo usarlas correctamente.
+      </li>
+      <li>
+        Aprender tips prácticos de la técnica microblading pelo a pelo y muchas
+        otras cosas más.
+      </li>
+      <li>
+        Acceder a todas sus actualizaciones de por vida para que puedas
+        disfrutar de nuevos contenidos muy conectados a la tendencia.
+      </li>
 
+      <div className="container-modulo">
+        <h5>MÓDULOS DEL CURSO </h5>
+        <h5>Conoce todo lo que vas a Aprender:</h5>
+      </div>
+
+      <div class="container">
+        <div className="container-lista">
           <div class="dropdown">
             <a
               class="btn btn-secondary dropdown-toggle"
@@ -252,6 +257,7 @@ const Cejas = () => {
               </li>
             </ul>
           </div>
+          <br />
           <div class="dropdown">
             <a
               class="btn btn-secondary dropdown-toggle"
@@ -386,6 +392,7 @@ const Cejas = () => {
               </li>
             </ul>
           </div>
+          <br />
           <div class="dropdown">
             <a
               class="btn btn-secondary dropdown-toggle"
@@ -507,6 +514,7 @@ const Cejas = () => {
               </li>
             </ul>
           </div>
+
           <div class="dropdown">
             <a
               class="btn btn-secondary dropdown-toggle"
@@ -524,6 +532,7 @@ const Cejas = () => {
               </li>
             </ul>
           </div>
+          <br />
           <div class="dropdown">
             <a
               class="btn btn-secondary dropdown-toggle"
@@ -670,9 +679,9 @@ const Cejas = () => {
               </li>
             </ul>
           </div>
-          <h4>GARANTÍA DE SATISFACCIÓN DE 7 DÍAS.</h4>
-        </li>
-      </ul>
+        </div>
+      </div>
+
       <img
         className="img"
         src={Garantia}
@@ -682,7 +691,7 @@ const Cejas = () => {
       />
       <h4>Aprovecha el 50 % de DESCUENTO.</h4>
       <a href="https://pay.hotmart.com/I43180264G?off=hozg6169&checkoutMode=10&offDiscount=ULTIMOS50OFF&ref=F77704218Q&bid=1672102506041">
-        <button class="button">COMPRAR AHORA</button>
+        <button className="comprar">COMPRAR AHORA</button>
       </a>
     </div>
   );
