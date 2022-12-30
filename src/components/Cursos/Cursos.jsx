@@ -61,8 +61,7 @@ const Cursos = () => {
       <div class="container-items">
         <div className="container-lista">
           <div class="dropdown">
-            <a
-              href="#"
+            <li
               class="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -70,7 +69,7 @@ const Cursos = () => {
               aria-expanded="false"
             >
               BIENVENIDA
-            </a>
+            </li>
 
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li class="col-5">Bienvenido/a</li>
@@ -78,8 +77,7 @@ const Cursos = () => {
           </div>
           <br />
           <div class="dropdown">
-            <a
-              href="#"
+            <li
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -87,7 +85,7 @@ const Cursos = () => {
               aria-expanded="false"
             >
               INTRODUCCIÓN A LA TINTURA Y HENNA PARA CEJAS
-            </a>
+            </li>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li className="row align-items-start dropdown-item">
@@ -98,8 +96,7 @@ const Cursos = () => {
           </div>
           <br />
           <div className="dropdown">
-            <a
-              href="#"
+            <li
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -107,7 +104,7 @@ const Cursos = () => {
               aria-expanded="false"
             >
               MATERIALES DE TRABAJO Y DE PRÁCTICA
-            </a>
+            </li>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li className="row align-items-start dropdown-item">
@@ -120,8 +117,7 @@ const Cursos = () => {
           </div>
           <br />
           <div className="dropdown">
-            <a
-              href="#"
+            <li
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -129,7 +125,7 @@ const Cursos = () => {
               aria-expanded="false"
             >
               PREPARACIÓN PREVIA DE LA PIEL Y SUPERFICIE A TRABAJAR
-            </a>
+            </li>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li className="dropdown-item">
@@ -152,8 +148,7 @@ const Cursos = () => {
           </div>
           <br />
           <div className="dropdown">
-            <a
-              href="#"
+            <li
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -161,7 +156,7 @@ const Cursos = () => {
               aria-expanded="false"
             >
               TIPOS DE TINTURA, USO Y PRÁCTICA CORRECTA
-            </a>
+            </li>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li className="dropdown-item">
@@ -179,8 +174,7 @@ const Cursos = () => {
           <br />
 
           <div className="dropdown">
-            <a
-              href="#"
+            <li
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -188,7 +182,7 @@ const Cursos = () => {
               aria-expanded="false"
             >
               PRÁCTICA EN MODELO Y TIPS A TENER EN CUENTA
-            </a>
+            </li>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li className="dropdown-item">
@@ -207,8 +201,7 @@ const Cursos = () => {
           <br />
 
           <div className="dropdown">
-            <a
-              href="#"
+            <li
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -216,7 +209,7 @@ const Cursos = () => {
               aria-expanded="false"
             >
               BONOS DE REGALO - PDF
-            </a>
+            </li>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li className="dropdown-item">CURSO BÁSICO DE MAQUILLAJE</li>
@@ -224,11 +217,9 @@ const Cursos = () => {
               <li className="dropdown-item">
                 MAQUILLAJE PARA UN EVENTO DE DÍA
               </li>
-              <li>
-                <a href="#" className="dropdown-item">
-                  MI MÉTODO PROBADO PARA TRANSFORMARTE EN UNA MAQUILLADORA DE
-                  ÉXITO
-                </a>
+              <li className="dropdown-item">
+                MI MÉTODO PROBADO PARA TRANSFORMARTE EN UNA MAQUILLADORA DE
+                ÉXITO
               </li>
               <li className="dropdown-item">
                 QUÉ SON COSMÉTICOS Y CÓMO SELECCIONARLOS
@@ -240,8 +231,7 @@ const Cursos = () => {
           </div>
           <br />
           <div className="dropdown">
-            <a
-              href="#"
+            <li
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -249,7 +239,7 @@ const Cursos = () => {
               aria-expanded="false"
             >
               CÓMO OBTENER TU CERTIFICADO
-            </a>
+            </li>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li className="dropdown-item">

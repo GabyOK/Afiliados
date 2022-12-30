@@ -29,9 +29,6 @@ const Footer = () => {
           </a>
         </div>{" "}
         <br />
-        <div className="container-curso">
-          <a href="https://www.instagram.com/beuty.style.online/"></a>
-        </div>
         <h6 className="derechos">
           TODOS LOS DERECHOS RESERVADOS BEAUTY STYLE / @2022
         </h6>
