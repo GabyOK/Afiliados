@@ -80,7 +80,7 @@ const Cursos = () => {
           <br />
           <div class="dropdown">
             <a
-              class="btn btn-secondary dropdown-toggle"
+              className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
               data-bs-toggle="dropdown"
@@ -89,23 +89,23 @@ const Cursos = () => {
               INTRODUCCIÓN A LA TINTURA Y HENNA PARA CEJAS
             </a>
 
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <li class="row align-items-start">
-                <a class="dropdown-item">
+            <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li className="row align-items-start">
+                <a className="dropdown-item">
                   Henna para cejas, ¡consigue un resultado profesional en casa!
                 </a>
               </li>
               <li>
-                <a class="dropdown-item">
+                <a className="dropdown-item">
                   Remedios naturales para hacer crecer las cejas
                 </a>
               </li>
             </ul>
           </div>
           <br />
-          <div class="dropdown">
+          <div className="dropdown">
             <a
-              class="btn btn-secondary dropdown-toggle"
+              className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
               data-bs-toggle="dropdown"
@@ -114,15 +114,15 @@ const Cursos = () => {
               MATERIALES DE TRABAJO Y DE PRÁCTICA
             </a>
 
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li>
-                <a class="dropdown-item">
+                <a className="dropdown-item">
                   Parte 1. Materiales de trabajo para diseño y perfilado de
                   cejas
                 </a>
               </li>
               <li>
-                <a class="dropdown-item">
+                <a className="dropdown-item">
                   Parte 2. Materiales de práctica para diseño y perfilado de
                   cejas
                 </a>
@@ -130,9 +130,9 @@ const Cursos = () => {
             </ul>
           </div>
           <br />
-          <div class="dropdown">
+          <div className="dropdown">
             <a
-              class="btn btn-secondary dropdown-toggle"
+              className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
               data-bs-toggle="dropdown"
@@ -141,38 +141,38 @@ const Cursos = () => {
               PREPARACIÓN PREVIA DE LA PIEL Y SUPERFICIE A TRABAJAR
             </a>
 
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li>
-                <a class="dropdown-item">
+                <a className="dropdown-item">
                   Parte 3. Higienización de la piel previa al tratamiento
                 </a>
               </li>
               <li>
-                <a class="dropdown-item">
+                <a className="dropdown-item">
                   Parte 4. Diseño de Cejas, cómo practicarlo eficientemente.
                 </a>
               </li>
               <li>
-                <a class="dropdown-item">
+                <a className="dropdown-item">
                   Parte 5. Técnica de marcación de diseño con hilo
                 </a>
               </li>
               <li>
-                <a class="dropdown-item">
+                <a className="dropdown-item">
                   Parte 6. Medidas estándares que deberían tener unas cejas
                 </a>
               </li>
               <li>
-                <a class="dropdown-item">
+                <a className="dropdown-item">
                   Parte 7. Construcción de diseño de cejas
                 </a>
               </li>
             </ul>
           </div>
           <br />
-          <div class="dropdown">
+          <div className="dropdown">
             <a
-              class="btn btn-secondary dropdown-toggle"
+              className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
               data-bs-toggle="dropdown"
@@ -181,17 +181,19 @@ const Cursos = () => {
               TIPOS DE TINTURA, USO Y PRÁCTICA CORRECTA
             </a>
 
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li>
-                <a class="dropdown-item">Parte 8. Tipos de tintura y hennas</a>
+                <a className="dropdown-item">
+                  Parte 8. Tipos de tintura y hennas
+                </a>
               </li>
               <li>
-                <a class="dropdown-item">
+                <a className="dropdown-item">
                   Parte 9. Aplicación correcta de la tintura de cejas
                 </a>
               </li>
               <li>
-                <a class="dropdown-item">
+                <a className="dropdown-item">
                   Parte 10. Corrección y errores comunes de la aplicación de
                   tintura henna
                 </a>
@@ -200,9 +202,9 @@ const Cursos = () => {
           </div>
           <br />
 
-          <div class="dropdown">
+          <div className="dropdown">
             <a
-              class="btn btn-secondary dropdown-toggle"
+              className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
               data-bs-toggle="dropdown"
@@ -211,33 +213,33 @@ const Cursos = () => {
               PRÁCTICA EN MODELO Y TIPS A TENER EN CUENTA
             </a>
 
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li>
-                <a class="dropdown-item">
+                <a className="dropdown-item">
                   Parte 11. Práctica de tintura de cejas en modelo
                 </a>
               </li>
               <li>
-                <a class="dropdown-item">
+                <a className="dropdown-item">
                   Parte 12. Práctica de aplicación de tintura de cejas en uno
                   mismo
                 </a>
               </li>
               <li>
-                <a class="dropdown-item">
+                <a className="dropdown-item">
                   Parte 13. Correcciones de diseño y tintura en uno mismo
                 </a>
               </li>
               <li>
-                <a class="dropdown-item">Parte 14. Preguntas frecuentes</a>
+                <a className="dropdown-item">Parte 14. Preguntas frecuentes</a>
               </li>
             </ul>
           </div>
           <br />
 
-          <div class="dropdown">
+          <div className="dropdown">
             <a
-              class="btn btn-secondary dropdown-toggle"
+              className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
               data-bs-toggle="dropdown"
@@ -246,38 +248,40 @@ const Cursos = () => {
               BONOS DE REGALO - PDF
             </a>
 
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li>
-                <a class="dropdown-item">CURSO BÁSICO DE MAQUILLAJE</a>
+                <a className="dropdown-item">CURSO BÁSICO DE MAQUILLAJE</a>
               </li>
               <li>
-                <a class="dropdown-item">CURSO DE AUTOMAQUILLAJE</a>
+                <a className="dropdown-item">CURSO DE AUTOMAQUILLAJE</a>
               </li>
               <li>
-                <a class="dropdown-item">MAQUILLAJE PARA UN EVENTO DE DÍA</a>
+                <a className="dropdown-item">
+                  MAQUILLAJE PARA UN EVENTO DE DÍA
+                </a>
               </li>
               <li>
-                <a class="dropdown-item">
+                <a className="dropdown-item">
                   MI MÉTODO PROBADO PARA TRANSFORMARTE EN UNA MAQUILLADORA DE
                   ÉXITO
                 </a>
               </li>
               <li>
-                <a class="dropdown-item">
+                <a className="dropdown-item">
                   QUÉ SON COSMÉTICOS Y CÓMO SELECCIONARLOS
                 </a>
               </li>
               <li>
-                <a class="dropdown-item">
+                <a className="dropdown-item">
                   LAS MEJORES PRÁCTICAS PARA CAPTAR Y FIDELIZAR CLIENTES
                 </a>
               </li>
             </ul>
           </div>
           <br />
-          <div class="dropdown">
+          <div className="dropdown">
             <a
-              class="btn btn-secondary dropdown-toggle"
+              className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
               data-bs-toggle="dropdown"
@@ -286,9 +290,9 @@ const Cursos = () => {
               CÓMO OBTENER TU CERTIFICADO
             </a>
 
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li>
-                <a class="dropdown-item">
+                <a className="dropdown-item">
                   {" "}
                   Explicativo con el paso a paso de cómo descargar tu
                   Certificado

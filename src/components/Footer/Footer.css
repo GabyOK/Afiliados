@@ -2,6 +2,11 @@
   color: white;
   margin-top: 50px;
 }
+.container-curso {
+  color: white;
+  text-align: center;
+  margin-top: 25px;
+}
 
 .container-link {
   display: flex;

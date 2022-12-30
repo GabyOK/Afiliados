@@ -7,13 +7,13 @@ import "./LandingPage.css";
 const LandingPage = () => {
   return (
     <div className="container-carrusel">
-      <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
+      <div id="carouselExampleCaptions" className="carousel slide">
+        <div className="carousel-indicators">
           <button
             type="button"
             data-bs-target="#carouselExampleCaptions"
             data-bs-slide-to="0"
-            class="active"
+            className="active"
             aria-current="true"
             aria-label="Slide 1"
           ></button>
@@ -39,7 +39,7 @@ const LandingPage = () => {
               alt="estilista"
               className="lash2"
             />
-            <div class="carousel-caption d-none d-md-block">
+            <div className="carousel-caption d-none d-md-block">
               <h5>ENTRENAMIENTO ONLINE</h5>
               <h1>
                 Conviértete en especialista en Cejas y Pestañas y haz que tus
@@ -47,44 +47,50 @@ const LandingPage = () => {
               </h1>
             </div>
           </div>
-          <div class="carousel-item">
+          <div className="carousel-item">
             <img
               src={Lash4}
               width="1550px"
               height="550px"
               alt="estilista"
-              className="lash4"
+              classNameName="lash4"
             />
-            <div class="carousel-caption d-none d-md-block"></div>
+            <div className="carousel-caption d-none d-md-block"></div>
           </div>
-          <div class="carousel-item">
+          <div className="carousel-item">
             <img
               src={Lash3}
               width="1550px"
               height="550px"
               alt="estilista"
-              className="lash3"
+              classNameName="lash3"
             />
-            <div class="carousel-caption d-none d-md-block"></div>
+            <div className="carousel-caption d-none d-md-block"></div>
           </div>
         </div>
         <button
-          class="carousel-control-prev"
+          className="carousel-control-prev"
           type="button"
           data-bs-target="#carouselExampleCaptions"
           data-bs-slide="prev"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+          <span
+            className="carousel-control-prev-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="visually-hidden">Previous</span>
         </button>
         <button
-          class="carousel-control-next"
+          className="carousel-control-next"
           type="button"
           data-bs-target="#carouselExampleCaptions"
           data-bs-slide="next"
         >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+          <span
+            className="carousel-control-next-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="visually-hidden">Next</span>
         </button>
       </div>
     </div>
