@@ -42,6 +42,7 @@ const Microblading = () => {
         <div className="container-lista">
           <div className="dropdown">
             <a
+              href="#"
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -52,30 +53,24 @@ const Microblading = () => {
             </a>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <li className="col-5">
-                <a className="dropdown-item">
-                  {" "}
-                  ¡Bienvenidos al Entrenamiento Profesional de Especialista en
-                  Microblading de Cejas 2.0!
-                </a>
+              <li className="dropdown-item">
+                ¡Bienvenidos al Entrenamiento Profesional de Especialista en
+                Microblading de Cejas 2.0!
               </li>
-              <li>
-                <a className="dropdown-item">
-                  Conociendo nuestra experta, sus logro, capacitaciones y
-                  experiencia en el campo
-                </a>
+              <li className="dropdown-item">
+                Conociendo nuestra experta, sus logro, capacitaciones y
+                experiencia en el campo
               </li>
-              <li>
-                <a className="dropdown-item">
-                  ¡Queremos conocerte! Espacio creado para conocer mejor las
-                  expectativas y necesidades de nuestras alumnas…
-                </a>
+              <li className="dropdown-item">
+                ¡Queremos conocerte! Espacio creado para conocer mejor las
+                expectativas y necesidades de nuestras alumnas…
               </li>
             </ul>
           </div>
 
           <div className="dropdown">
             <a
+              href="#"
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -86,35 +81,28 @@ const Microblading = () => {
             </a>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <li className="row align-items-start">
-                <a className="dropdown-item">
-                  PRIMEROS PASOS PARA COMENZAR A SER UNA ESPECIALISTA EN
-                  MICROBLADING.Lección 1: Conociendo la metodología de
-                  aprendizaje y lo que vas a lograr hacer
-                </a>
+              <li className="dropdown-item">
+                PRIMEROS PASOS PARA COMENZAR A SER UNA ESPECIALISTA EN
+                MICROBLADING.Lección 1: Conociendo la metodología de aprendizaje
+                y lo que vas a lograr hacer
               </li>
-              <li>
-                <a className="dropdown-item">
-                  Conociendo las oportunidades y beneficios de de saber aplicar
-                  la técnica de Microblading
-                </a>
+              <li className="dropdown-item">
+                Conociendo las oportunidades y beneficios de de saber aplicar la
+                técnica de Microblading
               </li>
-              <li>
-                <a className="dropdown-item">
-                  Introducción a la Bioseguridad e Higiene
-                </a>
+              <li className="dropdown-item">
+                Introducción a la Bioseguridad e Higiene
               </li>
-              <li>
-                <a className="dropdown-item">
-                  Conociendo la anatomía de la piel, sus características y capa
-                  donde debemos realizar la técnica
-                </a>
+              <li className="dropdown-item">
+                Conociendo la anatomía de la piel, sus características y capa
+                donde debemos realizar la técnica
               </li>
             </ul>
           </div>
 
           <div className="dropdown">
             <a
+              href="#"
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -125,46 +113,29 @@ const Microblading = () => {
             </a>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <li>
-                <a className="dropdown-item">
-                  Conociendo los materiales de práctica
-                </a>
+              <li className="dropdown-item">
+                Conociendo los materiales de práctica
               </li>
-              <li>
-                <a className="dropdown-item">
-                  Conociendo los materiales de trabajo
-                </a>
+              <li className="dropdown-item">
+                Conociendo los materiales de trabajo
               </li>
-              <li>
-                <a className="dropdown-item">Anestésicos. Parte 1</a>
+              <li className="dropdown-item">Anestésicos. Parte 1</li>
+              <li className="dropdown-item">Anestésicos. Parte 2</li>
+              <li className="dropdown-item">Pigmentos. Parte 1</li>
+              <li>Pigmentos. Parte 2</li>
+              <li className="dropdown-item">
+                Degradado e intensidad de los pigmentos
               </li>
-              <li>
-                <a className="dropdown-item">Anestésicos. Parte 2</a>
-              </li>
-              <li>
-                <a className="dropdown-item">Pigmentos. Parte 1</a>
-              </li>
-              <li>
-                <a className="dropdown-item">Pigmentos. Parte 2</a>
-              </li>
-              <li>
-                <a className="dropdown-item">
-                  {" "}
-                  Degradado e intensidad de los pigmentos
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item">
-                  {" "}
-                  BONO DE REGALO: CheckList de Materiales de trabajo, de
-                  práctica y de bioseguridad
-                </a>
+              <li className="dropdown-item">
+                BONO DE REGALO: CheckList de Materiales de trabajo, de práctica
+                y de bioseguridad
               </li>
             </ul>
           </div>
 
           <div className="dropdown">
             <a
+              href="#"
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -175,46 +146,34 @@ const Microblading = () => {
             </a>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <li>
-                <a className="dropdown-item">
-                  DISEÑO Y CONSTRUCCIÓN DE UNA CEJA PARA MICROBLADING / BONO DE
-                  REGALO
-                </a>
+              <li className="dropdown-item">
+                DISEÑO Y CONSTRUCCIÓN DE UNA CEJA PARA MICROBLADING / BONO DE
+                REGALO
               </li>
-              <li>
-                <a className="dropdown-item">
-                  Diseño de cejas para microblading
-                </a>
+              <li className="dropdown-item">
+                Diseño de cejas para microblading
               </li>
-              <li>
-                <a className="dropdown-item">
-                  Medidas de una ceja para microblading
-                </a>
+              <li className="dropdown-item">
+                Medidas de una ceja para microblading
               </li>
-              <li>
-                <a className="dropdown-item">
-                  Estructura, inicio y transiciones de una ceja
-                </a>
+              <li className="dropdown-item">
+                Estructura, inicio y transiciones de una ceja
               </li>
-              <li>
-                <a className="dropdown-item">
-                  Patrones de cejas, dirección de los pelos naturales a
-                  realizar. La importancia de las distintas espinas. ESPINE.
-                  PARTE 1
-                </a>
+              <li className="dropdown-item">
+                Patrones de cejas, dirección de los pelos naturales a realizar.
+                La importancia de las distintas espinas. ESPINE. PARTE 1
               </li>
-              <li>
-                <a className="dropdown-item">
-                  Patrones de cejas, direcciones de los pelos naturales a
-                  realizar. La importancia de las distintas espinas. SPINE.
-                  PARTE 2
-                </a>
+              <li className="dropdown-item">
+                Patrones de cejas, direcciones de los pelos naturales a
+                realizar. La importancia de las distintas espinas. SPINE. PARTE
+                2
               </li>
             </ul>
           </div>
           <br />
           <div className="dropdown">
             <a
+              href="#"
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -225,33 +184,25 @@ const Microblading = () => {
             </a>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <li>
-                <a className="dropdown-item">
-                  {" "}
-                  Practicando sobre papel. Guía práctica de trazos
-                </a>
+              <li className="dropdown-item">
+                Practicando sobre papel. Guía práctica de trazos
               </li>
-              <li>
-                <a className="dropdown-item">
-                  Movimientos de la aguja y cómo ingresarla correctamente.
-                </a>
+              <li className="dropdown-item">
+                Movimientos de la aguja y cómo ingresarla correctamente.
               </li>
-              <li>
-                <a className="dropdown-item">
-                  Práctica en piel superficial / Goma eva
-                </a>
+              <li className="dropdown-item">
+                Práctica en piel superficial / Goma eva
               </li>
 
-              <li>
-                <a className="dropdown-item">
-                  Práctica en piel superficial. Latex. PARTE 2
-                </a>
+              <li className="dropdown-item">
+                Práctica en piel superficial. Latex. PARTE 2
               </li>
             </ul>
           </div>
 
           <div className="dropdown">
             <a
+              href="#"
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -262,33 +213,27 @@ const Microblading = () => {
             </a>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <li>
-                <a className="dropdown-item">Cuidados post tratamiento</a>
+              <li className="dropdown-item">Cuidados post tratamiento</li>
+              <li className="dropdown-item">
+                {" "}
+                className="dropdown-item"Contraindicaciones
               </li>
-              <li>
-                <a className="dropdown-item">Contraindicaciones</a>
+              <li className="dropdown-item">
+                ¿Qué necesito saber sobre el retoque?
               </li>
-              <li>
-                <a className="dropdown-item">
-                  ¿Qué necesito saber sobre el retoque?
-                </a>
+              <li className="dropdown-item">
+                Ficha técnica y resguardo jurídico
               </li>
-              <li>
-                <a className="dropdown-item">
-                  Ficha técnica y resguardo jurídico
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item">
-                  BONO DE REGALO: Descarga nuestra ficha técnica y resguardo
-                  jurídico
-                </a>
+              <li className="dropdown-item">
+                BONO DE REGALO: Descarga nuestra ficha técnica y resguardo
+                jurídico
               </li>
             </ul>
           </div>
 
           <div className="dropdown">
             <a
+              href="#"
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -299,14 +244,13 @@ const Microblading = () => {
             </a>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <li>
-                <a className="dropdown-item">Recapitulando lo visto</a>
-              </li>
+              <li className="dropdown-item">Recapitulando lo visto</li>
             </ul>
           </div>
 
           <div className="dropdown">
             <a
+              href="#"
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -317,19 +261,14 @@ const Microblading = () => {
             </a>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <li>
-                <a className="dropdown-item">
-                  Diseño de cejas para microblading
-                </a>
+              <li className="dropdown-item">
+                Diseño de cejas para microblading
               </li>
-              <li>
-                <a className="dropdown-item">
-                  {" "}
-                  Rectificación de medidas y correcciones
-                </a>
+              <li className="dropdown-item">
+                Rectificación de medidas y correcciones
               </li>
-              <li>
-                <a className="dropdown-item">Variaciones de medidas y diseño</a>
+              <li className="dropdown-item">
+                Variaciones de medidas y diseño className="dropdown-item"
               </li>
             </ul>
           </div>
@@ -337,6 +276,7 @@ const Microblading = () => {
 
           <div className="dropdown">
             <a
+              href="#"
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -347,17 +287,15 @@ const Microblading = () => {
             </a>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <li>
-                <a className="dropdown-item">
-                  Microblading en modelo real paso a paso. Parte 1,2,3,4,5,6,7 Y
-                  8
-                </a>
+              <li className="dropdown-item">
+                Microblading en modelo real paso a paso. Parte 1,2,3,4,5,6,7 Y 8
               </li>
             </ul>
           </div>
 
           <div className="dropdown">
             <a
+              href="#"
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -368,16 +306,15 @@ const Microblading = () => {
             </a>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <li>
-                <a className="dropdown-item">
-                  Recapitulando el paso a paso del procedimiento
-                </a>
+              <li className="dropdown-item">
+                Recapitulando el paso a paso del procedimiento
               </li>
             </ul>
           </div>
 
           <div className="dropdown">
             <a
+              href="#"
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -388,35 +325,14 @@ const Microblading = () => {
             </a>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li>¡QUERER ES PODER!</li>
+              <li>Recomendaciones para empezar a ofrecer el servicio</li>
+              <li>¿A quién recomendar la técnica de microblading?</li>
+              <li>¿Cuánto cobrar el servicio de microblading?</li>
+              <li>Seguimiento y agenda</li>
+              <li>BONO DE REGALO: Elige tu diseño de agenda preferido</li>
               <li>
-                <a className="dropdown-item">¡QUERER ES PODER!</a>
-              </li>
-              <li>
-                <a className="dropdown-item">
-                  Recomendaciones para empezar a ofrecer el servicio
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item">
-                  {" "}
-                  ¿A quién recomendar la técnica de microblading?
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item">
-                  ¿Cuánto cobrar el servicio de microblading?
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item">Seguimiento y agenda</a>
-              </li>
-              <li>
-                <a className="dropdown-item">
-                  BONO DE REGALO: Elige tu diseño de agenda preferido
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item">
+                <a href="#" className="dropdown-item">
                   Mobiliario base para tu centro de belleza
                 </a>
               </li>
@@ -425,6 +341,7 @@ const Microblading = () => {
 
           <div className="dropdown">
             <a
+              href="#"
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -435,16 +352,15 @@ const Microblading = () => {
             </a>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <li>
-                <a className="dropdown-item">
-                  PACK LIBROS DE BELLEZA / BONO DE REGALO
-                </a>
+              <li className="dropdown-item">
+                PACK LIBROS DE BELLEZA / BONO DE REGALO
               </li>
             </ul>
           </div>
           <br />
           <div className="dropdown">
             <a
+              href="#"
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -455,13 +371,12 @@ const Microblading = () => {
             </a>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <li>
-                <a className="dropdown-item"> PREGUNTAS FRECUENTES – Q&A</a>
-              </li>
+              <li className="dropdown-item">PREGUNTAS FRECUENTES – Q&A</li>
             </ul>
           </div>
           <div className="dropdown">
             <a
+              href="#"
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -472,17 +387,15 @@ const Microblading = () => {
             </a>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <li>
-                <a className="dropdown-item">
-                  {" "}
-                  DESPEDIDA ¡Felicitaciones! ya sos una Especialista en
-                  Microblading de cejas 2.0
-                </a>
+              <li className="dropdown-item">
+                DESPEDIDA ¡Felicitaciones! ya sos una Especialista en
+                Microblading de cejas 2.0
               </li>
             </ul>
           </div>
           <div className="dropdown">
             <a
+              href="#"
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -493,10 +406,8 @@ const Microblading = () => {
             </a>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <li>
-                <a className="dropdown-item">
-                  Instrucciones para descargar el certificado
-                </a>
+              <li className="dropdown-item">
+                Instrucciones para descargar el certificado
               </li>
             </ul>
           </div>

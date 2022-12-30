@@ -70,6 +70,7 @@ const Pestañas = () => {
         <div className="container-lista">
           <div class="dropdown">
             <a
+              href="#"
               class="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -80,22 +81,17 @@ const Pestañas = () => {
             </a>
 
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <li>
-                <a class="dropdown-item">Bienvenido/a al programa</a>
+              <li className="dropdown-item">Bienvenido/a al programa</li>
+              <li className="dropdown-item">
+                Visagismo, depilación y pigmentación de cejas.
               </li>
-              <li>
-                <a class="dropdown-item">
-                  Visagismo, depilación y pigmentación de cejas.
-                </a>
-              </li>
-              <li>
-                <a class="dropdown-item">Browlaminations o Cejas 4K.</a>
-              </li>
+              <li className="dropdown-item">Browlaminations o Cejas 4K.</li>
             </ul>
           </div>
           <br />
           <div class="dropdown">
             <a
+              href="#"
               class="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -106,58 +102,42 @@ const Pestañas = () => {
             </a>
 
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <li>
-                <a class="dropdown-item">
-                  Materiales y tipos de pestañas que usaremos.
-                </a>
+              <li className="dropdown-item">
+                Materiales y tipos de pestañas que usaremos.
               </li>
-              <li>
-                <a class="dropdown-item">
-                  Técnica Clásica aplicación de pestañas paso a paso.
-                </a>
+              <li className="dropdown-item">
+                Técnica Clásica aplicación de pestañas paso a paso.
               </li>
-              <li>
-                <a class="dropdown-item">
-                  (PDF) Temas importantes sobre las extensiones de pestañas pelo
-                  a pelo.
-                </a>
+              <li className="dropdown-item">
+                (PDF) Temas importantes sobre las extensiones de pestañas pelo a
+                pelo.
               </li>
-              <li>
-                <a class="dropdown-item">Retoques de pestañas cada 15 días.</a>
+              <li className="dropdown-item">
+                Retoques de pestañas cada 15 días.
               </li>
-              <li>
-                <a class="dropdown-item">
-                  (PDF) Cuidados de las pestañas pelo a pelo
-                </a>
+              <li className="dropdown-item">
+                (PDF) Cuidados de las pestañas pelo a pelo
               </li>
-              <li>
-                <a class="dropdown-item">
-                  Abanicos para volumen y volumen ruso.
-                </a>
+              <li className="dropdown-item">
+                Abanicos para volumen y volumen ruso.
               </li>
-              <li>
-                <a class="dropdown-item">
-                  Aplicación con técnica de Volumen Ruso.
-                </a>
+              <li className="dropdown-item">
+                Aplicación con técnica de Volumen Ruso.
               </li>
-              <li>
-                <a class="dropdown-item">
-                  Retiro correcto de extensiones de pestañas.
-                </a>
+              <li className="dropdown-item">
+                Retiro correcto de extensiones de pestañas.
+                className="dropdown-item"
               </li>
-              <li>
-                <a class="dropdown-item">
-                  (3 PDF)Diseños tipo de mapings/técnicas/curvatura.
-                </a>
+              <li className="dropdown-item">
+                (3 PDF)Diseños tipo de mapings/técnicas/curvatura.
               </li>
-              <li>
-                <a class="dropdown-item">Lifting o rizado de pestañas.</a>
-              </li>
+              <li className="dropdown-item">Lifting o rizado de pestañas.</li>
             </ul>
           </div>
           <br />
           <div class="dropdown">
             <a
+              href="#"
               class="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -168,15 +148,9 @@ const Pestañas = () => {
             </a>
 
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <li>
-                <a class="dropdown-item">Crea tu Instagram</a>
-              </li>
-              <li>
-                <a class="dropdown-item">Crea tu fanpage en Facebook</a>
-              </li>
-              <li>
-                <a class="dropdown-item">Visita mi Instagram</a>
-              </li>
+              <li className="dropdown-item">Crea tu Instagram</li>
+              <li className="dropdown-item">Crea tu fanpage en Facebook</li>
+              <li className="dropdown-item">Visita mi Instagram</li>
             </ul>
           </div>
         </div>

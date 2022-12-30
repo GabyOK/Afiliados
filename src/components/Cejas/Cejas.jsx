@@ -80,6 +80,7 @@ const Cejas = () => {
         <div className="container-lista">
           <div class="dropdown">
             <a
+              href="#"
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -90,33 +91,26 @@ const Cejas = () => {
             </a>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <li>
-                <a className="dropdown-item">
-                  ¡Bienvenidos al Entrenamiento Profesional de Especialista en
-                  Microblading de Cejas 2.0!
-                </a>
+              <li className="dropdown-item">
+                ¡Bienvenidos al Entrenamiento Profesional de Especialista en
+                Microblading de Cejas 2.0!
               </li>
-              <li>
-                <a className="dropdown-item">
-                  ÚNETE AL CANAL PRIVADO DE TELEGRAM
-                </a>
+              <li className="dropdown-item">
+                ÚNETE AL CANAL PRIVADO DE TELEGRAM
               </li>
-              <li>
-                <a className="dropdown-item">
-                  Conociendo nuestra experta, sus logro, capacitaciones y
-                  experiencia en el campo
-                </a>
+              <li className="dropdown-item">
+                Conociendo nuestra experta, sus logro, capacitaciones y
+                experiencia en el campo
               </li>
-              <li>
-                <a className="dropdown-item">
-                  ¡Queremos conocerte! Espacio creado para conocer mejor las
-                  expectativas y necesidades de nuestras alumnas…
-                </a>
+              <li className="dropdown-item">
+                ¡Queremos conocerte! Espacio creado para conocer mejor las
+                expectativas y necesidades de nuestras alumnas…
               </li>
             </ul>
           </div>
           <div className="dropdown">
             <a
+              href="#"
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -127,43 +121,32 @@ const Cejas = () => {
             </a>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <li>
-                <a className="dropdown-item">
-                  Conociendo la metodología de aprendizaje y lo que vas a lograr
-                  hacer
-                </a>
+              <li className="dropdown-item">
+                Conociendo la metodología de aprendizaje y lo que vas a lograr
+                hacer
               </li>
-              <li>
-                <a className="dropdown-item">
-                  ¿Para quién es este Entrenamiento? ¿Necesito experiencia?
-                </a>
+              <li className="dropdown-item">
+                ¿Para quién es este Entrenamiento? ¿Necesito experiencia?
               </li>
-              <li>
-                <a className="dropdown-item">
-                  Conociendo las oportunidades y beneficios de de saber aplicar
-                  la técnica de Microblading
-                </a>
+              <li className="dropdown-item">
+                Conociendo las oportunidades y beneficios de de saber aplicar la
+                técnica de Microblading
               </li>
-              <li>
-                <a className="dropdown-item">
-                  ¿Qué es la Micropigmentación y el Microblading?
-                </a>
+              <li className="dropdown-item">
+                ¿Qué es la Micropigmentación y el Microblading?
               </li>
-              <li>
-                <a className="dropdown-item">
-                  Introducción a la Bioseguridad e Higiene
-                </a>
+              <li className="dropdown-item">
+                Introducción a la Bioseguridad e Higiene
               </li>
-              <li>
-                <a className="dropdown-item">
-                  Conociendo la anatomía de la piel, sus características y capa
-                  donde debemos realizar la técnica
-                </a>
+              <li className="dropdown-item">
+                Conociendo la anatomía de la piel, sus características y capa
+                donde debemos realizar la técnica
               </li>
             </ul>
           </div>
           <div className="dropdown">
             <a
+              href="#"
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -174,62 +157,39 @@ const Cejas = () => {
             </a>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <li>
-                <a className="dropdown-item">
-                  Conociendo los materiales de práctica
-                </a>
+              <li className="dropdown-item">
+                Conociendo los materiales de práctica
               </li>
-              <li>
-                <a className="dropdown-item">
-                  Conociendo los materiales de trabajo
-                </a>
+              <li className="dropdown-item">
+                Conociendo los materiales de trabajo
               </li>
-              <li>
-                <a className="dropdown-item">Lápiz dermográfico</a>
+              <li className="dropdown-item">Lápiz dermográfico</li>
+              <li className="dropdown-item">
+                Tipos de agujas y sus características
               </li>
-              <li>
-                <a className="dropdown-item">
-                  Tipos de agujas y sus características
-                </a>
+              <li className="dropdown-item">
+                Conociendo el tebori o inductor y la forma correcta de colocar
+                la aguja
               </li>
-              <li>
-                <a className="dropdown-item">
-                  Conociendo el tebori o inductor y la forma correcta de colocar
-                  la aguja
-                </a>
+              <li className="dropdown-item">Anestésicos. Parte 1</li>
+              <li className="dropdown-item">Anestésicos. Parte 2</li>
+              <li>Pigmentos. Parte 1</li>
+              <li className="dropdown-item">Pigmentos. Parte 2</li>
+              <li className="dropdown-item">
+                Degradado e intensidad de los pigmentos
               </li>
-              <li>
-                <a className="dropdown-item">Anestésicos. Parte 1</a>
+              <li className="dropdown-item">
+                BONO DE REGALO: CheckList de Materiales de trabajo, de práctica
+                y de bioseguridad
               </li>
-              <li>
-                <a className="dropdown-item">Anestésicos. Parte 2</a>
-              </li>
-              <li>
-                <a className="dropdown-item">Pigmentos. Parte 1</a>
-              </li>
-              <li>
-                <a className="dropdown-item">Pigmentos. Parte 2</a>
-              </li>
-              <li>
-                <a className="dropdown-item">
-                  Degradado e intensidad de los pigmentos
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item">
-                  BONO DE REGALO: CheckList de Materiales de trabajo, de
-                  práctica y de bioseguridad
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item">
-                  ¿Dónde conseguiste los materiales?
-                </a>
+              <li className="dropdown-item">
+                ¿Dónde conseguiste los materiales?
               </li>
             </ul>
           </div>
           <div className="dropdown">
             <a
+              href="#"
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -240,40 +200,30 @@ const Cejas = () => {
             </a>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <li>
-                <a className="dropdown-item">
-                  Diseño de cejas para microblading
-                </a>
+              <li className="dropdown-item">
+                Diseño de cejas para microblading
               </li>
-              <li>
-                <a className="dropdown-item">
-                  Medidas de una ceja para microblading
-                </a>
+              <li className="dropdown-item">
+                Medidas de una ceja para microblading
               </li>
-              <li>
-                <a className="dropdown-item">
-                  Estructura, inicio y transiciones de una ceja
-                </a>
+              <li className="dropdown-item">
+                Estructura, inicio y transiciones de una ceja
               </li>
-              <li>
-                <a className="dropdown-item">
-                  Patrones de cejas, dirección de los pelos naturales a
-                  realizar. La importancia de las distintas espinas. ESPINE.
-                  PARTE 1
-                </a>
+              <li className="dropdown-item">
+                Patrones de cejas, dirección de los pelos naturales a realizar.
+                La importancia de las distintas espinas. ESPINE. PARTE 1
               </li>
-              <li>
-                <a className="dropdown-item">
-                  Patrones de cejas, direcciones de los pelos naturales a
-                  realizar. La importancia de las distintas espinas. SPINE.
-                  PARTE 2
-                </a>
+              <li className="dropdown-item">
+                Patrones de cejas, direcciones de los pelos naturales a
+                realizar. La importancia de las distintas espinas. SPINE. PARTE
+                2
               </li>
             </ul>
           </div>
           <br />
           <div className="dropdown">
             <a
+              href="#"
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -284,54 +234,35 @@ const Cejas = () => {
             </a>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <li>
-                <a className="dropdown-item">
-                  Practicando sobre papel. Guía práctica de trazos
-                </a>
+              <li className="dropdown-item">
+                Practicando sobre papel. Guía práctica de trazos
               </li>
-              <li>
-                <a className="dropdown-item">
-                  BONO DE REGALO: ¡Descarga nuestra NUEVA GUÍA PRÁCTICA y
-                  comienza a practicar!
-                </a>
+              <li className="dropdown-item">
+                BONO DE REGALO: ¡Descarga nuestra NUEVA GUÍA PRÁCTICA y comienza
+                a practicar!
               </li>
-              <li>
-                <a className="dropdown-item">Quiz Spines</a>
+              <li className="dropdown-item">Quiz Spines</li>
+              <li className="dropdown-item">
+                Movimientos de la aguja y cómo ingresarla correctamente.
               </li>
-              <li>
-                <a className="dropdown-item">
-                  Movimientos de la aguja y cómo ingresarla correctamente.
-                </a>
+              <li className="dropdown-item">
+                Práctica en piel superficial / Goma eva
               </li>
-              <li>
-                <a className="dropdown-item">
-                  Práctica en piel superficial / Goma eva
-                </a>
+              <li className="dropdown-item">Profundidad correcta del corte</li>
+              <li className="dropdown-item">
+                Práctica en piel superficial / Latex. PARTE 1
               </li>
-              <li>
-                <a className="dropdown-item">Profundidad correcta del corte</a>
+              <li className="dropdown-item">
+                Práctica en piel superficial. Latex. PARTE 2
               </li>
-              <li>
-                <a className="dropdown-item">
-                  Práctica en piel superficial / Latex. PARTE 1
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item">
-                  Práctica en piel superficial. Latex. PARTE 2
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item">Práctica en textura (Banana)</a>
-              </li>
-              <li>
-                <a className="dropdown-item">Práctica en textura (Naranja)</a>
-              </li>
+              <li className="dropdown-item">Práctica en textura (Banana)</li>
+              <li className="dropdown-item">Práctica en textura (Naranja)</li>
             </ul>
           </div>
 
           <div className="dropdown">
             <a
+              href="#"
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -342,32 +273,23 @@ const Cejas = () => {
             </a>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <li>
-                <a className="dropdown-item">Cuidados post tratamiento</a>
+              <li className="dropdown-item">Cuidados post tratamiento</li>
+              <li className="dropdown-item">Contraindicaciones</li>
+              <li className="dropdown-item">
+                ¿Qué necesito saber sobre el retoque?
               </li>
-              <li>
-                <a className="dropdown-item">Contraindicaciones</a>
+              <li className="dropdown-item">
+                Ficha técnica y resguardo jurídico
               </li>
-              <li>
-                <a className="dropdown-item">
-                  ¿Qué necesito saber sobre el retoque?
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item">
-                  Ficha técnica y resguardo jurídico
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item">
-                  BONO DE REGALO: Descarga nuestra ficha técnica y resguardo
-                  jurídico
-                </a>
+              <li className="dropdown-item">
+                BONO DE REGALO: Descarga nuestra ficha técnica y resguardo
+                jurídico
               </li>
             </ul>
           </div>
           <div className="dropdown">
             <a
+              href="#"
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -378,13 +300,12 @@ const Cejas = () => {
             </a>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <li>
-                <a className="dropdown-item">RESÚMEN DE LA TEORÍA</a>
-              </li>
+              <li className="dropdown-item">RESÚMEN DE LA TEORÍA</li>
             </ul>
           </div>
           <div className="dropdown">
             <a
+              href="#"
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -395,24 +316,19 @@ const Cejas = () => {
             </a>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <li>
-                <a className="dropdown-item">
-                  Diseño de cejas para microblading
-                </a>
+              <li className="dropdown-item">
+                Diseño de cejas para microblading
               </li>
-              <li>
-                <a className="dropdown-item">
-                  Rectificación de medidas y correcciones
-                </a>
+              <li className="dropdown-item">
+                Rectificación de medidas y correcciones
               </li>
-              <li>
-                <a className="dropdown-item">Variaciones de medidas y diseño</a>
-              </li>
+              <li className="dropdown-item">Variaciones de medidas y diseño</li>
             </ul>
           </div>
           <br />
           <div className="dropdown">
             <a
+              href="#"
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -423,50 +339,33 @@ const Cejas = () => {
             </a>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <li>
-                <a className="dropdown-item">
-                  Microblading en modelo real paso a paso. Parte 1
-                </a>
+              <li className="dropdown-item">
+                Microblading en modelo real paso a paso. Parte 1
               </li>
-              <li>
-                <a className="dropdown-item">
-                  Microblading en modelo real paso a paso. Parte 2
-                </a>
+              <li className="dropdown-item">
+                Microblading en modelo real paso a paso. Parte 2
               </li>
-              <li>
-                <a className="dropdown-item">
-                  Microblading en modelo real paso a paso. Parte 3
-                </a>
+              <li className="dropdown-item">
+                Microblading en modelo real paso a paso. Parte 3
               </li>
-              <li>
-                <a className="dropdown-item">
-                  Microblading en modelo real paso a paso. Parte 4
-                </a>
+              <li className="dropdown-item">
+                Microblading en modelo real paso a paso. Parte 4
               </li>
-              <li>
-                <a className="dropdown-item">
-                  Microblading en modelo real paso a paso. Parte 5
-                </a>
+              <li className="dropdown-item">
+                Microblading en modelo real paso a paso. Parte 5
               </li>
-              <li>
-                <a className="dropdown-item">
-                  Microblading en modelo real paso a paso. Parte 6
-                </a>
+              <li className="dropdown-item">
+                Microblading en modelo real paso a paso. Parte 6
               </li>
-              <li>
-                <a className="dropdown-item">
-                  Microblading en modelo real paso a paso. Parte 7
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item">
-                  Microblading en modelo real paso a paso. Parte 8
-                </a>
+              <li>Microblading en modelo real paso a paso. Parte 7</li>
+              <li className="dropdown-item">
+                Microblading en modelo real paso a paso. Parte 8
               </li>
             </ul>
           </div>
           <div className="dropdown">
             <a
+              href="#"
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -477,15 +376,14 @@ const Cejas = () => {
             </a>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <li>
-                <a className="dropdown-item">
-                  Recapitulando el paso a paso del procedimiento
-                </a>
+              <li className="dropdown-item">
+                Recapitulando el paso a paso del procedimiento
               </li>
             </ul>
           </div>
           <div className="dropdown">
             <a
+              href="#"
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -496,47 +394,32 @@ const Cejas = () => {
             </a>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <li>
-                <a className="dropdown-item">Entrevista – ¡QUERER ES PODER</a>
+              <li className="dropdown-item">Entrevista – ¡QUERER ES PODER</li>
+              <li className="dropdown-item">
+                Recomendaciones para empezar a ofrecer el servicio
               </li>
-              <li>
-                <a className="dropdown-item">
-                  Recomendaciones para empezar a ofrecer el servicio
-                </a>
+              <li className="dropdown-item">
+                ¿A quién recomendar la técnica de microblading?
               </li>
-              <li>
-                <a className="dropdown-item">
-                  ¿A quién recomendar la técnica de microblading?
-                </a>
+              <li className="dropdown-item">
+                ¿Cuánto cobrar el servicio de microblading?
               </li>
-              <li>
-                <a className="dropdown-item">
-                  ¿Cuánto cobrar el servicio de microblading?
-                </a>
+              <li className="dropdown-item">
+                Microblading en modelo real paso a paso. Parte 5
               </li>
-              <li>
-                <a className="dropdown-item">
-                  Microblading en modelo real paso a paso. Parte 5
-                </a>
+              <li className="dropdown-item">Seguimiento y agenda</li>
+              <li className="dropdown-item">
+                Elige tu diseño de agenda preferido
               </li>
-              <li>
-                <a className="dropdown-item">Seguimiento y agenda</a>
-              </li>
-              <li>
-                <a className="dropdown-item">
-                  Elige tu diseño de agenda preferido
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item">
-                  Mobiliario base para tu centro de belleza
-                </a>
+              <li className="dropdown-item">
+                Mobiliario base para tu centro de belleza
               </li>
             </ul>
           </div>
 
           <div className="dropdown">
             <a
+              href="#"
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -547,16 +430,15 @@ const Cejas = () => {
             </a>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <li>
-                <a className="dropdown-item">
-                  ¿TIENES DUDAS? Te las respondemos…
-                </a>
+              <li className="dropdown-item">
+                ¿TIENES DUDAS? Te las respondemos…
               </li>
             </ul>
           </div>
           <br />
           <div className="dropdown">
             <a
+              href="#"
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -567,86 +449,60 @@ const Cejas = () => {
             </a>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li className="dropdown-item">
+                diferentes formas y prácticas de elaborar un diseño de cejas
+                según la morfología del rostro de cada persona. Podrás ver el
+                paso a paso teórico y práctico de cómo se realiza la técnica.
+              </li>
+              <li className="dropdown-item">
+                Definición de diseño y perfilado de cejas.
+              </li>
+              <li className="dropdown-item">
+                Principales tendencias en diseño de cejas.
+              </li>
+              <li className="dropdown-item">
+                Materiales de trabajo para diseño y perfilado de cejas.
+              </li>
+              <li className="dropdown-item">
+                Materiales de práctica para diseño y perfilado de cejas.
+              </li>
+              <li className="dropdown-item">
+                Lápiz dermográfico, qué es y uso correcto.
+              </li>
+              <li className="dropdown-item">
+                Higienización de la piel, previa al tratamiento
+              </li>
               <li>
-                <a className="dropdown-item">
-                  diferentes formas y prácticas de elaborar un diseño de cejas
-                  según la morfología del rostro de cada persona. Podrás ver el
-                  paso a paso teórico y práctico de cómo se realiza la técnica.
+                <a href="#" className="dropdown-item">
+                  Tipos de depilación de cejas.
                 </a>
               </li>
-              <li>
-                <a className="dropdown-item">
-                  Definición de diseño y perfilado de cejas.
-                </a>
+              <li className="dropdown-item">
+                Cómo practicar eficientemente diseño y perfilado de cejas.
               </li>
-              <li>
-                <a className="dropdown-item">
-                  Principales tendencias en diseño de cejas.
-                </a>
+              <li className="dropdown-item">Técnica de marcación con hilo.</li>
+              <li className="dropdown-item">
+                Medidas estándares que deberían tener unas cejas.
               </li>
-              <li>
-                <a className="dropdown-item">
-                  Materiales de trabajo para diseño y perfilado de cejas.
-                </a>
+              <li className="dropdown-item">
+                Aplicación correcta de la tintura de cejas.
               </li>
-              <li>
-                <a className="dropdown-item">
-                  Materiales de práctica para diseño y perfilado de cejas.
-                </a>
+              <li className="dropdown-item">
+                Práctica de marcación en modelo. Parte 1 y 2
+                className="dropdown-item"
               </li>
-              <li>
-                <a className="dropdown-item">
-                  Lápiz dermográfico, qué es y uso correcto.
-                </a>
+              <li className="dropdown-item">
+                Práctica de diseño de cejas en modelo. Parte 1 y 2
               </li>
-              <li>
-                <a className="dropdown-item">
-                  Higienización de la piel, previa al tratamiento
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item">Tipos de depilación de cejas.</a>
-              </li>
-              <li>
-                <a className="dropdown-item">
-                  Cómo practicar eficientemente diseño y perfilado de cejas.
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item"> Técnica de marcación con hilo.</a>
-              </li>
-              <li>
-                <a className="dropdown-item">
-                  Medidas estándares que deberían tener unas cejas.
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item">
-                  Aplicación correcta de la tintura de cejas.
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item">
-                  Práctica de marcación en modelo. Parte 1 y 2
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item">
-                  Práctica de diseño de cejas en modelo. Parte 1 y 2
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item">Depilación con pinzas.</a>
-              </li>
-              <li>
-                <a className="dropdown-item">
-                  Práctica de aplicación de tintura de cejas en uno mismo.
-                </a>
+              <li className="dropdown-item">Depilación con pinzas.</li>
+              <li className="dropdown-item">
+                Práctica de aplicación de tintura de cejas en uno mismo.
               </li>
             </ul>
           </div>
           <div className="dropdown">
             <a
+              href="#"
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -657,16 +513,15 @@ const Cejas = () => {
             </a>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <li>
-                <a classNameName="dropdown-item">
-                  PACK LIBROS DE BELLEZA Y PARA EMPRENDEDORES / BONO DE REGALO /
-                  Se entrega en formato PDF
-                </a>
+              <li className="dropdown-item">
+                PACK LIBROS DE BELLEZA Y PARA EMPRENDEDORES / BONO DE REGALO /
+                Se entrega en formato PDF
               </li>
             </ul>
           </div>
           <div className="dropdown">
             <a
+              href="#"
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -677,13 +532,12 @@ const Cejas = () => {
             </a>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <li>
-                <a className="dropdown-item">Despedida</a>
-              </li>
+              <li className="dropdown-item">Despedida</li>
             </ul>
           </div>
           <div className="dropdown">
             <a
+              href="#"
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -694,10 +548,8 @@ const Cejas = () => {
             </a>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <li>
-                <a className="dropdown-item">
-                  CERTIFICADO Instrucciones para descargar el certificado
-                </a>
+              <li className="dropdown-item">
+                CERTIFICADO Instrucciones para descargar el certificado
               </li>
             </ul>
           </div>
