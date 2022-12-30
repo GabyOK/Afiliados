@@ -79,8 +79,7 @@ const Cejas = () => {
       <div className="container">
         <div className="container-lista">
           <div class="dropdown">
-            <a
-              href="#"
+            <li
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -88,7 +87,7 @@ const Cejas = () => {
               aria-expanded="false"
             >
               MODULO 1
-            </a>
+            </li>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li className="dropdown-item">
@@ -109,8 +108,7 @@ const Cejas = () => {
             </ul>
           </div>
           <div className="dropdown">
-            <a
-              href="#"
+            <li
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -118,7 +116,7 @@ const Cejas = () => {
               aria-expanded="false"
             >
               MODULO 2
-            </a>
+            </li>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li className="dropdown-item">
@@ -145,8 +143,7 @@ const Cejas = () => {
             </ul>
           </div>
           <div className="dropdown">
-            <a
-              href="#"
+            <li
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -154,7 +151,7 @@ const Cejas = () => {
               aria-expanded="false"
             >
               MODULO 3
-            </a>
+            </li>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li className="dropdown-item">
@@ -188,8 +185,7 @@ const Cejas = () => {
             </ul>
           </div>
           <div className="dropdown">
-            <a
-              href="#"
+            <li
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -197,7 +193,7 @@ const Cejas = () => {
               aria-expanded="false"
             >
               MODULO 4
-            </a>
+            </li>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li className="dropdown-item">
@@ -222,8 +218,7 @@ const Cejas = () => {
           </div>
           <br />
           <div className="dropdown">
-            <a
-              href="#"
+            <li
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -231,7 +226,7 @@ const Cejas = () => {
               aria-expanded="false"
             >
               MODULO 5
-            </a>
+            </li>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li className="dropdown-item">
@@ -261,8 +256,7 @@ const Cejas = () => {
           </div>
 
           <div className="dropdown">
-            <a
-              href="#"
+            <li
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -270,7 +264,7 @@ const Cejas = () => {
               aria-expanded="false"
             >
               MODULO 6
-            </a>
+            </li>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li className="dropdown-item">Cuidados post tratamiento</li>
@@ -288,8 +282,7 @@ const Cejas = () => {
             </ul>
           </div>
           <div className="dropdown">
-            <a
-              href="#"
+            <li
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -297,15 +290,14 @@ const Cejas = () => {
               aria-expanded="false"
             >
               MODULO 7
-            </a>
+            </li>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li className="dropdown-item">RESÚMEN DE LA TEORÍA</li>
             </ul>
           </div>
           <div className="dropdown">
-            <a
-              href="#"
+            <li
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -313,7 +305,7 @@ const Cejas = () => {
               aria-expanded="false"
             >
               MODULO 8
-            </a>
+            </li>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li className="dropdown-item">
@@ -327,8 +319,7 @@ const Cejas = () => {
           </div>
           <br />
           <div className="dropdown">
-            <a
-              href="#"
+            <li
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -336,7 +327,7 @@ const Cejas = () => {
               aria-expanded="false"
             >
               MODULO 9
-            </a>
+            </li>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li className="dropdown-item">
@@ -364,8 +355,7 @@ const Cejas = () => {
             </ul>
           </div>
           <div className="dropdown">
-            <a
-              href="#"
+            <li
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -373,7 +363,7 @@ const Cejas = () => {
               aria-expanded="false"
             >
               MODULO 10
-            </a>
+            </li>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li className="dropdown-item">
@@ -382,8 +372,7 @@ const Cejas = () => {
             </ul>
           </div>
           <div className="dropdown">
-            <a
-              href="#"
+            <li
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -391,7 +380,7 @@ const Cejas = () => {
               aria-expanded="false"
             >
               MODULO 11
-            </a>
+            </li>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li className="dropdown-item">Entrevista – ¡QUERER ES PODER</li>
@@ -418,8 +407,7 @@ const Cejas = () => {
           </div>
 
           <div className="dropdown">
-            <a
-              href="#"
+            <li
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -427,7 +415,7 @@ const Cejas = () => {
               aria-expanded="false"
             >
               MODULO 12
-            </a>
+            </li>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li className="dropdown-item">
@@ -437,8 +425,7 @@ const Cejas = () => {
           </div>
           <br />
           <div className="dropdown">
-            <a
-              href="#"
+            <li
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -446,7 +433,7 @@ const Cejas = () => {
               aria-expanded="false"
             >
               MODULO 13
-            </a>
+            </li>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li className="dropdown-item">
@@ -472,11 +459,7 @@ const Cejas = () => {
               <li className="dropdown-item">
                 Higienización de la piel, previa al tratamiento
               </li>
-              <li>
-                <a href="#" className="dropdown-item">
-                  Tipos de depilación de cejas.
-                </a>
-              </li>
+              <li className="dropdown-item">Tipos de depilación de cejas.</li>
               <li className="dropdown-item">
                 Cómo practicar eficientemente diseño y perfilado de cejas.
               </li>
@@ -501,8 +484,7 @@ const Cejas = () => {
             </ul>
           </div>
           <div className="dropdown">
-            <a
-              href="#"
+            <li
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -510,7 +492,7 @@ const Cejas = () => {
               aria-expanded="false"
             >
               MODULO 14
-            </a>
+            </li>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li className="dropdown-item">
@@ -520,8 +502,7 @@ const Cejas = () => {
             </ul>
           </div>
           <div className="dropdown">
-            <a
-              href="#"
+            <li
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -529,15 +510,14 @@ const Cejas = () => {
               aria-expanded="false"
             >
               MODULO 15
-            </a>
+            </li>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li className="dropdown-item">Despedida</li>
             </ul>
           </div>
           <div className="dropdown">
-            <a
-              href="#"
+            <li
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -545,7 +525,7 @@ const Cejas = () => {
               aria-expanded="false"
             >
               MODULO 16
-            </a>
+            </li>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li className="dropdown-item">

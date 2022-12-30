@@ -41,8 +41,7 @@ const Microblading = () => {
       <div className="container">
         <div className="container-lista">
           <div className="dropdown">
-            <a
-              href="#"
+            <li
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -50,7 +49,7 @@ const Microblading = () => {
               aria-expanded="false"
             >
               MODULO 1
-            </a>
+            </li>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li className="dropdown-item">
@@ -69,8 +68,7 @@ const Microblading = () => {
           </div>
 
           <div className="dropdown">
-            <a
-              href="#"
+            <li
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -78,7 +76,7 @@ const Microblading = () => {
               aria-expanded="false"
             >
               MODULO 2
-            </a>
+            </li>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li className="dropdown-item">
@@ -101,8 +99,7 @@ const Microblading = () => {
           </div>
 
           <div className="dropdown">
-            <a
-              href="#"
+            <li
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -110,7 +107,7 @@ const Microblading = () => {
               aria-expanded="false"
             >
               MODULO 3
-            </a>
+            </li>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li className="dropdown-item">
@@ -134,8 +131,7 @@ const Microblading = () => {
           </div>
 
           <div className="dropdown">
-            <a
-              href="#"
+            <li
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -143,7 +139,7 @@ const Microblading = () => {
               aria-expanded="false"
             >
               MODULO 4
-            </a>
+            </li>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li className="dropdown-item">
@@ -172,8 +168,7 @@ const Microblading = () => {
           </div>
           <br />
           <div className="dropdown">
-            <a
-              href="#"
+            <li
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -181,7 +176,7 @@ const Microblading = () => {
               aria-expanded="false"
             >
               MODULO 5
-            </a>
+            </li>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li className="dropdown-item">
@@ -201,8 +196,7 @@ const Microblading = () => {
           </div>
 
           <div className="dropdown">
-            <a
-              href="#"
+            <li
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -210,12 +204,11 @@ const Microblading = () => {
               aria-expanded="false"
             >
               MODULO 6
-            </a>
+            </li>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li className="dropdown-item">Cuidados post tratamiento</li>
               <li className="dropdown-item">
-                {" "}
                 className="dropdown-item"Contraindicaciones
               </li>
               <li className="dropdown-item">
@@ -232,8 +225,7 @@ const Microblading = () => {
           </div>
 
           <div className="dropdown">
-            <a
-              href="#"
+            <li
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -241,7 +233,7 @@ const Microblading = () => {
               aria-expanded="false"
             >
               MODULO 7
-            </a>
+            </li>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li className="dropdown-item">Recapitulando lo visto</li>
@@ -249,8 +241,7 @@ const Microblading = () => {
           </div>
 
           <div className="dropdown">
-            <a
-              href="#"
+            <li
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -258,7 +249,7 @@ const Microblading = () => {
               aria-expanded="false"
             >
               MODULO 8
-            </a>
+            </li>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li className="dropdown-item">
@@ -275,8 +266,7 @@ const Microblading = () => {
           <br />
 
           <div className="dropdown">
-            <a
-              href="#"
+            <li
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -284,7 +274,7 @@ const Microblading = () => {
               aria-expanded="false"
             >
               MODULO 9
-            </a>
+            </li>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li className="dropdown-item">
@@ -294,8 +284,7 @@ const Microblading = () => {
           </div>
 
           <div className="dropdown">
-            <a
-              href="#"
+            <li
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -303,7 +292,7 @@ const Microblading = () => {
               aria-expanded="false"
             >
               MODULO 10
-            </a>
+            </li>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li className="dropdown-item">
@@ -313,8 +302,7 @@ const Microblading = () => {
           </div>
 
           <div className="dropdown">
-            <a
-              href="#"
+            <li
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -322,7 +310,7 @@ const Microblading = () => {
               aria-expanded="false"
             >
               MODULO 11
-            </a>
+            </li>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li>¡QUERER ES PODER!</li>
@@ -331,17 +319,14 @@ const Microblading = () => {
               <li>¿Cuánto cobrar el servicio de microblading?</li>
               <li>Seguimiento y agenda</li>
               <li>BONO DE REGALO: Elige tu diseño de agenda preferido</li>
-              <li>
-                <a href="#" className="dropdown-item">
-                  Mobiliario base para tu centro de belleza
-                </a>
+              <li className="dropdown-item">
+                Mobiliario base para tu centro de belleza
               </li>
             </ul>
           </div>
 
           <div className="dropdown">
-            <a
-              href="#"
+            <li
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -349,7 +334,7 @@ const Microblading = () => {
               aria-expanded="false"
             >
               MODULO 12
-            </a>
+            </li>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li className="dropdown-item">
@@ -359,8 +344,7 @@ const Microblading = () => {
           </div>
           <br />
           <div className="dropdown">
-            <a
-              href="#"
+            <li
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -368,15 +352,14 @@ const Microblading = () => {
               aria-expanded="false"
             >
               MODULO 13
-            </a>
+            </li>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li className="dropdown-item">PREGUNTAS FRECUENTES – Q&A</li>
             </ul>
           </div>
           <div className="dropdown">
-            <a
-              href="#"
+            <li
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -384,7 +367,7 @@ const Microblading = () => {
               aria-expanded="false"
             >
               MODULO 14
-            </a>
+            </li>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li className="dropdown-item">
@@ -394,8 +377,7 @@ const Microblading = () => {
             </ul>
           </div>
           <div className="dropdown">
-            <a
-              href="#"
+            <li
               className="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -403,7 +385,7 @@ const Microblading = () => {
               aria-expanded="false"
             >
               MODULO 15
-            </a>
+            </li>
 
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li className="dropdown-item">

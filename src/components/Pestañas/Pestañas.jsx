@@ -69,8 +69,7 @@ const Pestañas = () => {
       <div class="container">
         <div className="container-lista">
           <div class="dropdown">
-            <a
-              href="#"
+            <li
               class="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -78,7 +77,7 @@ const Pestañas = () => {
               aria-expanded="false"
             >
               MODULO 1-ESPECIALISTA EN CEJAS
-            </a>
+            </li>
 
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li className="dropdown-item">Bienvenido/a al programa</li>
@@ -90,8 +89,7 @@ const Pestañas = () => {
           </div>
           <br />
           <div class="dropdown">
-            <a
-              href="#"
+            <li
               class="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -99,7 +97,7 @@ const Pestañas = () => {
               aria-expanded="false"
             >
               MODULO 2-ESPECIALISTA EN PESTAÑAS
-            </a>
+            </li>
 
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li className="dropdown-item">
@@ -136,8 +134,7 @@ const Pestañas = () => {
           </div>
           <br />
           <div class="dropdown">
-            <a
-              href="#"
+            <li
               class="btn btn-secondary dropdown-toggle"
               role="button"
               id="dropdownMenuLink"
@@ -145,7 +142,7 @@ const Pestañas = () => {
               aria-expanded="false"
             >
               MODULO 3 -TU NEGOCIO EN REDES SOCIALES
-            </a>
+            </li>
 
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li className="dropdown-item">Crea tu Instagram</li>
